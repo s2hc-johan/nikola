@@ -4,6 +4,8 @@ New in master
 Features
 --------
 
+* Added ``USE_SLUGIFY`` (defaults to True).  If it’s False, Nikola allows and
+  generates almost any Unicode character in page URLs (Issue #1321)
 * Added support for enclosures (via optional enclosure metadata tag) (Issue #1322)
 
 Bugfixes
